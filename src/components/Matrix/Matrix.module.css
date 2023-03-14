@@ -1,0 +1,52 @@
+.mDiv {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 416px;
+  height: 416px;
+}
+
+.bDiv{
+  display: flex;
+  justify-content: space-around;
+}
+
+.bDiv1,
+.bDiv2,
+.bDiv3,
+.btn1,
+.btn2,
+.btn3 {
+  display: flex;
+  color: rgb(70, 79, 160);
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+.divNone {
+  opacity: 0;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+  width: 80px;
+  height: 25px;
+  border-radius: 8%;
+}
+
+.btn1{
+  background-color: rgb(65, 188, 156);
+}
+
+.btn2{
+  
+  background-color: rgb(21, 24, 32);
+}
+
+.btn3{
+  background-color: rgb(191, 11, 27);
+}
